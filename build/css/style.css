@@ -603,20 +603,12 @@ video {
   bottom: 2.5rem;
 }
 
-.bottom-5{
-  bottom: 1.25rem;
-}
-
 .left-1\/2{
   left: 50%;
 }
 
 .right-4{
   right: 1rem;
-}
-
-.right-5{
-  right: 1.25rem;
 }
 
 .top-4{
@@ -682,6 +674,10 @@ video {
 
 .ml-\[5vw\]{
   margin-left: 5vw;
+}
+
+.mr-\[4vw\]{
+  margin-right: 4vw;
 }
 
 .mr-\[5vw\]{
@@ -922,11 +918,6 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.translate-y-20{
-  --tw-translate-y: 5rem;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
 .transform{
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
@@ -1013,6 +1004,10 @@ video {
 
 .gap-8{
   gap: 2rem;
+}
+
+.gap-\[9vw\]{
+  gap: 9vw;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]){
@@ -1187,11 +1182,6 @@ video {
 
 .bg-cream-100\/95{
   background-color: rgb(249 246 240 / 0.95);
-}
-
-.bg-cream-50{
-  --tw-bg-opacity: 1;
-  background-color: rgb(253 251 247 / var(--tw-bg-opacity, 1));
 }
 
 .bg-cream-dark{
@@ -1549,11 +1539,6 @@ video {
   color: rgb(245 233 212 / var(--tw-text-opacity, 1));
 }
 
-.text-green-400{
-  --tw-text-opacity: 1;
-  color: rgb(74 222 128 / var(--tw-text-opacity, 1));
-}
-
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
@@ -1572,8 +1557,14 @@ video {
   color: rgb(245 240 230 / 0.5);
 }
 
-.opacity-0{
-  opacity: 0;
+.placeholder-gray-400::-moz-placeholder{
+  --tw-placeholder-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-placeholder-opacity, 1));
+}
+
+.placeholder-gray-400::placeholder{
+  --tw-placeholder-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-placeholder-opacity, 1));
 }
 
 .opacity-10{
@@ -1654,6 +1645,11 @@ video {
 .hover\:bg-\[\#6e4824\]:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(110 72 36 / var(--tw-bg-opacity, 1));
+}
+
+.hover\:bg-\[\#83572e\]:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(131 87 46 / var(--tw-bg-opacity, 1));
 }
 
 .hover\:bg-coffee-500\/10:hover{

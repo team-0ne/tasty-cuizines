@@ -1,18 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tasty Cuizines</title>
-    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
    
    
 </head>
 
-<body class="bg-cream-dark text-brown antialiased scroll-smooth">
+<body class="bg-cream-dark text-brown antialiased">
 
     <!-- Navigation -->
     <nav class="fixed w-full z-50 bg-cream-100/95 backdrop-blur-md border-b border-coffee-500/10 transition-all duration-300"
@@ -390,7 +388,7 @@
 
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
                 <!-- Opening Hours -->
-                <div class="bg-cream-50 rounded-2xl p-8 shadow-lg border border-coffee-500/5">
+                <div class="bg-cream-100 rounded-2xl p-8 shadow-lg border border-coffee-500/5">
                     <div class="flex items-center gap-4 mb-8">
                         <div class="w-14 h-14 bg-coffee-600/10 rounded-full flex items-center justify-center">
                             <svg class="w-7 h-7 text-coffee-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -446,7 +444,7 @@
                 </div>
 
                 <!-- Location & Map -->
-                <div class="bg-cream-50 rounded-2xl p-8 shadow-lg border border-coffee-500/5">
+                <div class="bg-cream-100 rounded-2xl p-8 shadow-lg border border-coffee-500/5">
                     <div class="flex items-center gap-4 mb-8">
                         <div class="w-14 h-14 bg-coffee-600/10 rounded-full flex items-center justify-center">
                             <svg class="w-7 h-7 text-coffee-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -703,16 +701,6 @@
             </div>
         </div>
     </footer>
-
-    <!-- Toast Notification -->
-    <div id="toast"
-        class="fixed bottom-5 right-5 bg-coffee-800 text-cream-50 px-6 py-4 rounded-lg shadow-2xl transform translate-y-20 opacity-0 transition-all duration-300 z-50 flex items-center gap-3">
-        <svg class="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-        </svg>
-        <span id="toast-message">Operation successful!</span>
-    </div>
-
     
 </body>
 
